@@ -1,0 +1,4 @@
+* Add Changelog :)
+* Add manpage
+* Add support for IPv6
+* Fix Makefile to work on Linux
