@@ -1,5 +1,3 @@
-% udp-breeder
-
 The udp-breeder utility listens on a specified UDP port and forward all
 packets to one or more targets.  The source address and port of forwarded
 packets remains unchanged.
@@ -43,7 +41,9 @@ $ udp-breeder -p 9000 10.0.0.1:9001 10.0.0.2:9002 10.0.0.3:9003
 
 ## Options
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -f  don't become a daemon, remain in the foreground
 -p  port to listen on
 -q  quiet mode
 -l  log to the following file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
